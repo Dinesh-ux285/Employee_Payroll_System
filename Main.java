@@ -100,11 +100,11 @@ class PayrollSystem {
             payrollSystem.addEmployee(emp1);
             payrollSystem.addEmployee(emp2);
 
-            System.out.println("Initial Employee Deatils");
+            System.out.println("Initial Employee Details: ");
             payrollSystem.displayEmployees();
-            System.out.println("Removing Employees");
+            System.out.println("Removing Employees: ");
             payrollSystem.removeEmployee(101);
-            System.out.println("Remaining Employees Details");
+            System.out.println("Remaining Employees Details: ");
             payrollSystem.displayEmployees();
         }
     }
